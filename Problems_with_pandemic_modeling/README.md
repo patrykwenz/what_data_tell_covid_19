@@ -37,19 +37,22 @@ Table below shows results comparison for some countries.
 
 There are some probable reasons, why results of forecast are not satisfying for the next stages of the pandemic.
 
-### Lockdowns resolve
+### Resolution of lockdowns
 Script does not features data about lockdown resolves. For `base.r` it is necessary to insert data about these
 non-pharmaceutical interventions and dates of thier introductions:
+
 - closure of schools and universities,
 - self-isolating if ill,
 - ban on public events,
 - lockdown,
 - social distancing encouraged
-But in fact, at the end of the "first wave" of COVID-19 pandemic, which has expired in the summer, countries resolves most of
-introduced interventions. Script does not take it into account.
+
+But in fact, at the end of the "first wave" of COVID-19 pandemic, which has expired in the summer, most countries resolved introduced
+interventions. Script does not take it into account.
 
 ### Non "normal distribution" shape
 During early phases of COVID-19 pandemic it was easy to see, that number of daily cases resembled normal distribution chart shape.
-The shape of chart was modificated by non-pharmaceutical interventions, like lockdown, school closures, etc.
-But knowing the nature of coronaviruses, we know that pandemic has some peaks of people infected. Script seems to not support
-multiple waves of COVID-19 pandemic. It tries to fit the forecast to normal distribution and totally miss the daily new cases.
+The shape of chart was modified by non-pharmaceutical interventions, like lockdown, school closures, etc.
+
+But knowing the nature of coronaviruses, we know that pandemic has some peaks of daily people infected. Script seems to not support
+multiple waves of COVID-19 pandemic. It tries to fit the forecast to normal distribution and totally miss the number of daily new cases.
