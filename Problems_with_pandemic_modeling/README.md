@@ -56,3 +56,11 @@ The shape of chart was modified by non-pharmaceutical interventions, like lockdo
 
 But knowing the nature of coronaviruses, we know that pandemic has some peaks of daily people infected. Script seems to not support
 multiple waves of COVID-19 pandemic. It tries to fit the forecast to normal distribution and totally miss the number of daily new cases.
+
+## Results for Poland for 02/12/2020
+
+Forecast of daily new cases
+![](results_02122020/figures/Poland_forecast_base-3193-stanfit.Rdata.png)
+
+Three pannel (it's recommended to click on picture to open in higher resolution).
+![](results_02122020/figures/Poland_three_pannel_base-3193-stanfit.Rdata.png)
